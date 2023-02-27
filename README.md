@@ -12,3 +12,10 @@ docker-compose up -d
 
 - Access: `localhost:15672` to access RabbitMQ and user `guest/guest` for user/password :D.
 
+- Create user with example:
+
+```sh
+rabbitmqctl add_user janeway changeit
+```
+
+- 
